@@ -1,0 +1,10 @@
+#Banner {
+	height: 70vh;
+	background-image: url("../images/Banner.jpg");
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

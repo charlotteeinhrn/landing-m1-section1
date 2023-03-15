@@ -1,0 +1,42 @@
+@import "banner.css"; 
+@import "buttons.css";
+@import "footer.css";
+@import "card.css";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+body {
+	margin: 0;
+	background-color: rgb(245,239,230,255);
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	text-align: center
+}
+
+.list-inline {
+	padding: 0;
+	text-align: center
+}
+
+.list-inline a {
+	font-size: 48px;
+	color: black;
+	text-align: center
+}
+
+.list-inline a:hover{
+	color: pink;
+	transition: 1s;
+	text-align: center
+}
+
